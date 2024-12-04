@@ -12,8 +12,11 @@
         <Image x:Name="ohio" HorizontalAlignment="Left" Height="300" Margin="10,0,0,0" VerticalAlignment="Top" Width="300" Source="/ohio.png" RenderTransformOrigin="0.49,0.978"/>
         <Button x:Name="buttonpurdue" Content="Button" HorizontalAlignment="Left" Margin="681,17,0,0" VerticalAlignment="Top" Click="Button_Click"/>
         <Label x:Name="founder" Content="Label" HorizontalAlignment="Left" Margin="315,9,0,0" VerticalAlignment="Top" Height="55" Width="264"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="681,58,0,0" VerticalAlignment="Top"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="681,107,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="buttongeorgia" Content="Button" HorizontalAlignment="Left" Margin="681,58,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="buttonohio" Content="Button" HorizontalAlignment="Left" Margin="681,107,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="year" Content="Label" HorizontalAlignment="Left" Margin="315,64,0,0" VerticalAlignment="Top" Height="55" Width="264"/>
+        <Label x:Name="loc" Content="Label" HorizontalAlignment="Left" Margin="315,117,0,0" VerticalAlignment="Top" Height="55" Width="264"/>
+        <Label x:Name="fame" Content="Label" HorizontalAlignment="Left" Margin="310,172,0,0" VerticalAlignment="Top" Height="55" Width="264"/>
 
     </Grid>
 </Window>

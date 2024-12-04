@@ -1,0 +1,532 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pixelpaint"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="-46,-110,-1085,-484" Background="White">
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="129,111,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="234,111,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="129,216,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="234,216,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="338,111,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="443,111,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="338,216,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="443,216,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="129,322,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="234,322,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="129,427,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="234,427,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="338,322,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="443,322,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="338,427,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="443,427,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="551,111,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="656,111,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="551,216,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="656,216,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="760,111,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="865,111,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="760,216,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="865,216,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="551,322,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="656,322,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="551,427,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="656,427,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="760,322,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="865,322,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="760,427,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="865,427,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="129,530,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="234,530,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="129,635,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="234,635,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="338,530,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="443,530,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="338,635,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="443,635,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="129,741,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="234,741,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="129,846,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="234,846,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="338,741,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="443,741,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="338,846,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="443,846,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="551,530,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="656,530,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="551,635,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="656,635,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="760,530,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="865,530,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="760,635,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="865,635,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="551,741,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="656,741,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="551,846,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="656,846,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="760,741,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="865,741,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="760,846,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="865,846,0,0" VerticalAlignment="Top" Width="100" Fill="Black">
+            <Rectangle.Stroke>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF0C0C0C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="1505,111,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="Red"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="1637,111,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="Lime"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="1505,241,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="Blue"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="1637,241,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="#FF7F7F7F"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="1505,384,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="#FFFF7F00"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="1637,384,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="Aqua"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="1505,514,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="#FF7FFF7F"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="1637,514,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" Fill="Black"/>
+
+    </Grid>
+</Window>
